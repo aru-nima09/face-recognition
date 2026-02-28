@@ -4,8 +4,6 @@
 
 This project implements an efficient **Face Recognition System using Principal Component Analysis (PCA)** for dimensionality reduction and **k-Nearest Neighbor (kNN)** for classification. The system is trained and tested using the **ORL Face Dataset** and evaluated based on recognition accuracy and computational performance.
 
----
-
 ## Dataset
 
 **ORL Face Dataset (AT&T Database of Faces)**
@@ -22,7 +20,6 @@ s1, s2, s3, ..., s40
 (each folder contains 10 face images)
 ```
 
----
 
 ## Technologies Used
 
@@ -34,7 +31,6 @@ s1, s2, s3, ..., s40
 * Matplotlib
 * Pandas
 
----
 
 ## Workflow
 
@@ -46,7 +42,6 @@ s1, s2, s3, ..., s40
 6. Test model and evaluate performance
 7. Compare results for different PCA components
 
----
 
 ## How to Run
 
@@ -57,7 +52,6 @@ git clone https://github.com/your-username/face-recognition-pca-knn.git
 cd face-recognition-pca-knn
 ```
 
----
 
 ### 2️. Install Required Libraries
 
@@ -65,13 +59,11 @@ cd face-recognition-pca-knn
 pip install numpy opencv-python scikit-learn matplotlib pandas
 ```
 
----
 
 ### 3️. Upload Dataset
 
 Place the ORL dataset folders (`s1` to `s40`) inside the project directory.
 
----
 
 ### 4️. Run the Notebook
 
@@ -81,7 +73,6 @@ Open and run:
 Face_Recognition_PCA_kNN.ipynb
 ```
 
----
 
 ## 📊 Results
 
@@ -93,7 +84,6 @@ Face_Recognition_PCA_kNN.ipynb
 
 > Best trade-off between accuracy and speed is achieved at **100 PCA components**.
 
----
 
 ## Output
 
@@ -101,7 +91,6 @@ Face_Recognition_PCA_kNN.ipynb
 * Explained variance graph
 * Training and testing time comparison
 
----
 
 ## Applications
 
@@ -110,8 +99,6 @@ Face_Recognition_PCA_kNN.ipynb
 * Surveillance
 * Access control systems
 
----
-
 ## Authors
 
 * Arunima Nithin Nair
@@ -119,10 +106,6 @@ Face_Recognition_PCA_kNN.ipynb
 * Jania Jose
 * Joel Santhosh
 
----
-
 ## License
 
 This project is for **academic and educational use only**.
-
----
